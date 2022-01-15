@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 50px;
+  border: 1px solid #5D6063;
+}
+
+p {
+  padding: 20px 0 20px 10px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+h1, p {
+  background-color: #a3c1ad;
+}
+
+body {
+  text-align: center;
+    background-color:	#fbf7f5;
+}
+
+.button:link,
+/* Change this */
+.button:visited {
+  /* Change this */
+  display: block;
+  /* Add this */
+  text-decoration: none;
+  /* Add this */
+  color: #FFF;
+  /* The rest is the same */
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+  width: 200px;
+  margin: 20px auto;
+}
+
+.button:hover,
+.button:visited:hover {
+  color: #FFF;
+  background-color: #76AEED;
+  /* Light blue */
+}
+
+.button:active,
+.button:visited:active {
+  color: #FFF;
+  background-color: #5995DA;
+  /* Blue */
+}
+
+.call-to-action:link,
+.call-to-action:visited {
+  background-color: #D55C5F;
+  /* Red */
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+  background-color: #FFCCCB;
+  /* Light yellow */
+}
+
+.call-to-action:active,
+.call-to-action:visited:active {
+  background-color: #EEB75A;
+  /* Yellow */
+}
